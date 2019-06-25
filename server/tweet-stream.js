@@ -13,10 +13,10 @@ var Twit = require('twit')
 var redis = require('redis')
 var pub = redis.createClient();
 var T = new Twit({
-    consumer_key: 'qM8PgvvU64xxkGuOTlOGHsSL6',
-    consumer_secret: 'W29xsHl3LdQnLuosxLYNmSC99LZrvNaVqdBTJHvWNzV2ougOeE',
-    access_token: '14782853-kyvAObc8wCzf9Oue9NSY8W4X5HPDoQKCQx9BWrWJR',
-    access_token_secret: 'MVXVXWf9Z9XKqeyRtYuqyDJrd3rGA8GcJkCFQWaG1VVoa',
+    consumer_key: '',
+    consumer_secret: '',
+    access_token: '',
+    access_token_secret: '',
     timeout_ms: 60 * 1000, // optional HTTP request timeout to apply to all requests.
 
 })
